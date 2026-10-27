@@ -2,7 +2,7 @@ package week4;
 
 public class week4_7 {
 
-    public static String FindMin(int N1, int N2, int N3){
+    public static int FindMin(int N1, int N2, int N3){
         int min=N1;
         if (N2<min) min=N2;
         if (N3<min) min=N3;
