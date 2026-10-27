@@ -1,0 +1,31 @@
+
+/**
+ * 在此处编写对记录类 helloworld 的描述.
+ *
+ * @author (你的名字)
+ * @version (一个版本号或一个日期)
+ * @param x    记录实例(对象)的示例 x 参数
+ * @param y    记录实例(对象)的示例 y 参数
+ */
+public record helloworld(int x, int y)
+{
+    /**
+     * helloworld 实例(对象)的一个额外的构造器
+     */
+    public helloworld()
+    {
+        this(0, 0);
+    }
+
+    /**
+     * 一个方法的例子 - 使用你自己的注释替换它
+     *
+     * @param z    方法的一个示例参数
+     * @return    x、y、z 之和
+     */
+    public int sampleMethod(int z)
+    {
+        // 在此处加上你的代码
+        return x + y + z;
+    }
+}
