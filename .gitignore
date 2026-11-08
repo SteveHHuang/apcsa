@@ -3,6 +3,7 @@
 *.bluej
 *.txt
 state/
+/*.java
 hello.java
 main.java
 temp.java
